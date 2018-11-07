@@ -3,12 +3,6 @@
 html, body {
   height: 100%;
 }
-
-body {
-  border: 20px solid black;
-  border-bottom-width: 30px;
-  padding: 20px;
-}
 .dock-menu {
   bottom: 10px;
   font-size: 0;
@@ -29,6 +23,11 @@ body {
   min-height: 50px;
   min-width: 50px;
   padding: 0;
+  transition: 0.5s all ease;
+}
+.dock-menu-list li:hover {
+  border-radius: 100%;
+  box-shadow: 0 0 40px 5px white;
 }
 .dock-menu-list li img {
   border-radius: 50%;
@@ -36,4 +35,14 @@ body {
   display: inline-block;
   margin: 0;
   padding: 0;
+}
+
+#map {
+  border: 15px solid black;
+  border-bottom-width: 35px;
+  bottom: 0;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
