@@ -1,0 +1,39 @@
+* { box-sizing: border-box; }
+
+html, body {
+  height: 100%;
+}
+
+body {
+  border: 20px solid black;
+  border-bottom-width: 30px;
+  padding: 20px;
+}
+.dock-menu {
+  bottom: 10px;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+.dock-menu-list {
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+}
+.dock-menu-list li {
+  display: inline-block;
+  margin: 0 3px;
+  min-height: 50px;
+  min-width: 50px;
+  padding: 0;
+}
+.dock-menu-list li img {
+  border-radius: 50%;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
