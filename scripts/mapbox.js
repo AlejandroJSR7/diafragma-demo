@@ -30,7 +30,8 @@ map.on('load', function () {
       "data": {
           "type": "Point",
           "coordinates": [
-              0, 0
+            -122.42901,
+            37.80633
           ]
       }
   });
