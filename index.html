@@ -4,29 +4,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Diafragma | Demo Mapa</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" />
-  <script src='https://api.mapbox.com/mapbox-gl-js/v0.36.0/mapbox-gl.js'></script>
-  <link href='https://api.mapbox.com/mapbox-gl-js/v0.36.0/mapbox-gl.css' rel='stylesheet' />
-  <link rel="stylesheet" href="styles/diafragma.css">
+  <title>Diafragma | Login</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/diafragma.login.css">
 </head>
 <body>
-    <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d493490.8669592654!2d-150.00071271614894!3d61.10836874496443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x56c8917604b33f41%3A0x257dba5aa78468e3!2sAnchorage%2C+Alaska%2C+EE.+UU.!5e0!3m2!1ses-419!2sco!4v1541617267128" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-    <div class="dock-menu">
-      <ul class="dock-menu-list">
-        <li><img src="main-nav-animals@2x.png" alt=""></li>
-        <li><img src="main-nav-earth@2x.png" alt=""></li>
-        <li><img src="main-nav-electricity@2x.png" alt=""></li>
-        <li><img src="main-nav-evolution@2x.png" alt=""></li>
-        <li><img src="main-nav-forces@2x.png" alt=""></li>
-        <li><img src="main-nav-habitats@2x.png" alt=""></li>
-        <li><img src="main-nav-light@2x.png" alt=""></li>
-        <li><img src="main-nav-materials@2x.png" alt=""></li>
-      </ul>
+  <div class="wrap">
+    <form class="form--box">
+      <div class="form-field">
+        <i class="form-field__icon fa fa-user"></i>
+        <input class="form-field__input" placeholder="Username" type="text">
+      </div>
+      <div class="form-field">
+        <i class="form-field__icon fa fa-key"></i>
+        <input class="form-field__input" placeholder="Password" type="text">
+      </div>
+      <a href="map.html" class="btn btn-block btn--submit">Go to map!</a>
+    </form>
+    <div class="copy-text">
+      <a href="#">Register here</a>
     </div>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="jquery.resizeOnApproach.1.0.min.js"></script>
-  <script src="scripts/diafragma.js"></script>
-  <!-- <script src="scripts/mapbox.js"></script> -->
+  </div>      
 </body>
 </html>
